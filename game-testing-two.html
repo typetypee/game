@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Game</title>
+        <link rel = "stylesheet" href = "game-testing-two.css">
+    </head>
+    <body>
+        
+        <!--pages for title screen navigation-->
+        
+        <div id = "title" class = "position page style-page">
+        <h2>Game</h2>
+            <button id = "notesButton"><a href = "javascript:swap('notes')">Notes</a></button>
+            <button id = "play">Play</button>
+            <button id = "creditsButton"><a href = "javascript:swap('credits')">Credits</a></button>
+        </div>
+        
+        <div id = "credits" class = "position page style-page">
+            <button><a href = "javascript:swap('title')">Back</a></button>
+            <h3>Credits</h3>
+            <p>Creator: Circles</p>
+            <p>Coder: Circles</p>
+            <p>Lots of help: Many people on Stackover Flow</p>
+            <p>Some other help: Bluish</p>
+            <p>Movement: Some dude.</p>
+            <p>More credits: people I possibly forgot</p>
+            <p>Characters: people you probably don't know :D</p>
+        
+        </div>
+        
+        <div id = "notes" class = "position page style-page">
+            <button><a href = "javascript:swap('title')">Back</a></button>
+            <h3>Notes</h3>
+            <p>This game is still very buggy</p>
+            <p>Is this even a game? It does not really have a goal.</p>
+            <p>Give me some feedback please.</p>
+        </div>
+        
+        <!--death screen-->
+        
+         <div id = "deaths" class = "position">
+        You Died.
+            <br>
+            <button id = "endGame" class = "deathButton">Title Screen</button>
+            <button id = "continue" class = "deathButton">Continue</button>
+        
+        </div>
+        
+        <!--game section-->
+        
+        <div id = "gameParts">
+          <p id = "talk">...</p>
+          <canvas id = "game"></canvas>
+          <div id = "bar">
+            <h4 id = "healthLevel"></h4>
+            <button id = "choiceOne" class = "speechButton"></button>
+            <button id = "choiceTwo" class = "speechButton"></button>
+            <button id = "choiceThree" class = "speechButton"></button>
+        </div>
+        </div>
+        <script src = "game-testing-two.js"></script>
+    </body>
+</html>

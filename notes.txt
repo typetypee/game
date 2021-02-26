@@ -1,0 +1,29 @@
+notes
+for game
+camera view port
+2-20-21
+if the tiles are in the viewport, load them, now a decision must be made
+do the tiles loaded outside the viewport disappear, or do they simply stay loaded?
+it may be better for performance for them to stay there, instead of deleting them and reloading them.
+though im not sure how to tell if the tiles are within the viewport.
+maybe the best way would be to simply use the canvas's translate functions.
+OKAY NEw GAME PLAN
+yes, generate the WHOLE map T_T, then, just trasnalte, i mean, i think i can find a way to keep my origanal movment code and collisions.
+
+OKAY HERE'S THE PLAN
+fix the arrays (in progress)
+merge the arrays into one giant one
+should i just draw them all in one big array? possibly
+or i keep them as the separate 10 by 10 chunks and merge them into the giant one
+this will depend on whether or not i can figure out how to merge the arrays
+IF I CAN NOT
+make one big array
+IF I CAN
+then merge them and continue
+CONTINUING
+draw the whole damn array
+hopefully only once i need to, otherwise it'll be a real downer for peformance
+transalate the image so only the desired area is being shown in the canvas viewport
+make functions so the transalte is relative to the player position
+but, maybe it should be trasnalted when the player moves
+MISSON COMPLETE :D :D :D

@@ -27,3 +27,18 @@ transalate the image so only the desired area is being shown in the canvas viewp
 make functions so the transalte is relative to the player position
 but, maybe it should be trasnalted when the player moves
 MISSON COMPLETE :D :D :D
+
+2-28-21
+List of things I should do:
+-Create a battle mechanism
+  -The mechanism is rectangles appearing on the side of the player that can do damage
+  -Make is so the rectangles move away from the rectangle so it is a ranged attack
+  -Create health bars for the enitites
+-Start on entity movement
+  -Pathfinding
+  -Random movement from places
+  -Sense for the player (probably based on player.x and player.y)
+-Create more of the map
+-Possibly start on making a tileset for the game, as the solid canvas rendered tiles right now are quite boring
+  -If not, then I guess we'll stick with the boring ones
+  -Hopefully the collisions still stays the same

@@ -8,7 +8,7 @@ canvas.height = "300";
 var tileSize = 50;
 var health = 100;
 var entityCollide;
-var entityHit
+var entityHit;
 var talkable;
 var range = tileSize/2;
 var entities = [];

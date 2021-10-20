@@ -1,0 +1,35 @@
+{
+  "006699":{
+    "x": "posX(15)",
+    "y": "posY(25)",
+    "color": "006699"},
+  "fcc203": {
+  	"x": "posX(17)",
+    "y": "posY(28)",
+    "color": "fcc203"
+  },
+  "elsie": {
+    "x": "posX(6)",
+    "y": "posY(27.5)",
+    "color": "9abcfc"
+  },
+  "winston": {
+    "x": "posX(22.5)",
+    "y": "posY(22.5)",
+    "color": "ed21e6",
+    "speed": 2.5
+  },
+  "abel": {
+    "x": "posX(16)",
+    "y": "posY(22)",
+    "color": "000000",
+    "speed": 2.5
+  },
+  
+  "deadPurple": {
+    "x": "posX(8.1)",
+    "y": "posY(29.1)",
+    "color": "9e59c9",
+    "speed": 2.5
+  }
+}
